@@ -1,0 +1,36 @@
+.navbar{
+    background-color: aqua;
+}
+.navbar ul {
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding : 5px 20px;
+
+}
+.navbar li a {
+text-decoration: none;
+color: brown;
+font-size: large;
+}
+.foot{
+
+    position:fixed;
+    bottom:0;
+    font-size: larger;
+    text-align: center;
+
+}
+.card{
+    max-width: 440px;
+    /* display: flex; */
+    /* display: -ms-inline-grid; */
+
+}
+.home1{
+    /* font-family:  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
