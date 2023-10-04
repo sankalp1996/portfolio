@@ -1,22 +1,14 @@
 import React from "react";
 
-const ServiceDetail = (isClicked) => {
-  console.log("serviceDetail=>", isClicked);
+const ServiceDetail = () => {
+  // console.log("serviceDetail=>", props);
 
-  if (isClicked.isClicked) {
-    return (
+  return (
+    <div>
       <div>
-        <div>
-          <h1>details of new service</h1>
-          <button className="btn-primary">Go Back</button>
-        </div>
+        <h1>details of new service</h1>
       </div>
-    )
-  } else {
-    return (<>
-    <h1>nothing</h1>
-    </>
-    )
-  }
+    </div>
+  );
 };
 export default ServiceDetail;
