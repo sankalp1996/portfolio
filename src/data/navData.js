@@ -19,6 +19,11 @@ const navData =  [
     id:4,
     title:'Contact',
     link:'/contact'
+},
+{
+    id:5,
+    title:'Projects',
+    link:'/project'
 }
 ]
 

@@ -11,6 +11,7 @@ import navData from "../src/data/navData";
 import { Routes, Route } from "react-router-dom";
 import Counter from "./components/counter";
 import ServiceDetail from "./components/serviceDetail";
+import ProjectMain from "./components/projectMain";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="*" element={<Home />} /> 
         <Route path="/" element={<Home />} />
         <Route path="/service" element={<Service />} />
+        <Route path="/project" element={<ProjectMain/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
